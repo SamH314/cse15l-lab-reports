@@ -7,7 +7,14 @@
 3. an example of using the command with a path to a file as an argument
 
 # ls
-kjdkf
+1. an example of using the command with no argument
+2. an exmaple of using the command with a path to a directory as an argument.
+
+3. an example of using the command with a path to a file as an argument# cat
+
 # cat
 
-osjdf
+1. an example of using the command with no argument
+3. an exmaple of using the command with a path to a directory as an argument.
+
+4. an example of using the command with a path to a file as an argument# cat
