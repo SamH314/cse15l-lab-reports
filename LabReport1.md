@@ -16,7 +16,7 @@ The working directory was home. Technically there was no output, but the directo
 
 ![Screenshot 2023-10-08 at 4 30 38 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/276774cc-6a5b-4529-80cd-be6245a06c47)
 
-The working directory was Lecture1. There was an error when changing directories to Hello.class. Hello.class is a file, not a directory. Therefore there was no directory to change to.
+The working directory was 'lecture1'. There was an error when changing directories to Hello.class. Hello.class is a file, not a directory. Therefore there was no directory to change to.
 
 # ls
 1. an example of using the command with no argument
