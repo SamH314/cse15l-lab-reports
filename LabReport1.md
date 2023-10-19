@@ -37,19 +37,19 @@ The working directory was home. The output was the list of items that is inside 
 The working directory was home. The output was `Hello.class` because if you `ls` a file, it only lists that file. The output is not an error. 
 
 # cat
-1. an example of using the command with no argument
+-an example of using the command with no argument
 
 ![Screenshot 2023-10-08 at 4 54 09 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/a07003f3-0649-463c-8e84-b493972d33ed)
 
 The working directory was home. There was no output, `cat` is waiting for a keyboard input which will repeat any input and display it. The output is not an error because it was allowed.
 
-2. an exmaple of using the command with a path to a directory as an argument.
+-an exmaple of using the command with a path to a directory as an argument.
 
 ![Screenshot 2023-10-08 at 4 54 46 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/51763071-21a3-420a-bf10-43b13e51866e)
 
 The working directory was `lecture1`. The output was an error. You can not `cat` a directory since its not a file that can be read. 
 
-3. an example of using the command with a path to a file as an argument.
+-an example of using the command with a path to a file as an argument.
 
 ![Screenshot 2023-10-08 at 5 06 55 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/ec8c08a8-3139-418c-b5e8-c2e7fb874c57)
 
