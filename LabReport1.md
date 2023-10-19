@@ -4,16 +4,19 @@
 ![Screenshot 2023-10-08 at 4 26 37 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/75bb0ff5-8c71-4124-a93a-975c1f0f20c6)
 
 The working directory was `home`. I got that output because there was no change in directory since there was no argument. It stayed in the same directory. The output is not an error.
+
 2. an example of using the command with a path to a directory as an argument.
 
 ![Screenshot 2023-10-08 at 4 27 04 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/da5b3aec-1716-405d-bd3e-9ff6c617a816)
 
 The working directory was home. Technically there was no output, but the directory did change. The directory changed from home to `lecture1`. The output is not an error.
+
 3. an example of using the command with a path to a file as an argument
 
 ![Screenshot 2023-10-08 at 4 30 38 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/276774cc-6a5b-4529-80cd-be6245a06c47)
 
 The working directory was `lecture1`. There was an error when changing directories to `Hello.class`. `Hello.class` is a file, not a directory. Therefore there was no directory to change to.
+
 # ls
 1. an example of using the command with no argument
 
