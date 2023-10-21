@@ -66,6 +66,8 @@ For the private key:
 
 ![Screenshot 2023-10-21 at 3 04 42 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/7a31522a-f8bb-4ef5-a93f-7c6f638e4dcb)
 
+No password was needed in the above screenshot!
+
 # Part 3
 How easy it is to run a local server from out of my laptop. I thought I would need more fancy equipment or more coding experience to get a server running. I also thought it was interesting to connet to another computer remotely. It brings up the quesiton for me if I need a high end laptop, when I can just remotely connect to a computer from the lab or from my computer at home to run more complex and intensive code. I also think I should be practicing more terminal commands, seems to be an important skill to have since there's not much nice GUI for remote accessing to computers. 
 
