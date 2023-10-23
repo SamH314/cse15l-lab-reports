@@ -24,7 +24,7 @@ The working directory was `lecture1`. There was an error when changing directori
 
 The working directory was `home`. The output was the list of items inside home, which were lab1 and `lecture1`. I got that output because `ls` is a command that list items inside a directory. The output is not an error.
 
-*an example of using the command with a path to a directory as an argument.
+* an example of using the command with a path to a directory as an argument.
 
 ![Screenshot 2023-10-08 at 4 37 36 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/c52a15cd-b42a-4c5d-b4ca-b43c2a98829f)
 
