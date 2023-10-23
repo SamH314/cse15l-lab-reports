@@ -11,7 +11,7 @@ The working directory was `home`. I got that output because there was no change 
 
 The working directory was `home`. Technically there was no output, but the directory did change. The directory changed from `home to `lecture1`. The output is not an error.
 
-*an example of using the command with a path to a file as an argument
+* an example of using the command with a path to a file as an argument
 
 ![Screenshot 2023-10-08 at 4 30 38 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/276774cc-6a5b-4529-80cd-be6245a06c47)
 
