@@ -43,7 +43,7 @@ The working directory was `home`. The output was `Hello.class` because if you `l
 
 The working directory was home. There was no output, `cat` is waiting for a keyboard input which will repeat any input and display it. The output is not an error because it was allowed.
 
-* an exmaple of using the command with a path to a directory as an argument.
+* an example of using the command with a path to a directory as an argument.
 
 ![Screenshot 2023-10-08 at 4 54 46 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/51763071-21a3-420a-bf10-43b13e51866e)
 
@@ -55,3 +55,4 @@ The working directory was `lecture1`. The output was an error. You can not `cat`
 
 The working directory was `messages`. The output was Bonjour le monde! That's what was inside the text file `fr.txt`, which `cat` read and displayed for us. The output was not an error.
 
+(I used codeblocks for commands, file names, and direcotories but they don't really show up as a pdf for some reason. Changed the numbers to bullets and corrected my typo.)
