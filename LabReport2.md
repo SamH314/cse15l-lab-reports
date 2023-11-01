@@ -54,14 +54,18 @@ class StringServer {
 
 # Part 2
 For the private key:
+
 <img width="1570" alt="Screenshot 2023-11-01 at 10 48 08 AM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/118cc009-da49-49b3-9665-49e98a114d94">
+
 ^Shows that both my local and remote contain the same public key! This ultimattely shows the path to the public key for my SSH key for logging into ieng6 on the remote computer.
 ```
 /home/linux/ieng6/cs15lfa23/cs15lfa23ek/.ssh/authorized_keys
 ```
 
 For the private key:
+
 <img width="419" alt="Screenshot 2023-11-01 at 11 16 50 AM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/5585344c-65dc-4c7f-a60a-f4b4003f278c">
+
 ^pwd shows my current path and the ls shows what's inside ssh showing my private key
 ```
 /Users/sammyhernandez/.ssh/id_rsa
