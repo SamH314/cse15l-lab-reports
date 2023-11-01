@@ -40,20 +40,20 @@ class StringServer {
 
 •The method in my code being called is `handleRequest`.
 
-•The argument for that method is a url. The method checks if the url path contains /add-message. If it doesn't, it will just return msg without a change. If it does, it will add the message after the query into a string array. Msg is then returned with it's value being the previous message plus the string format of int num and the first element of the string array.
+•The argument for that method is a url. The method checks if the url path contains `/add-message`. If it doesn't, it will just return `msg` without a change. If it does, it will add the message after the query into a string array. `Msg` is then returned with it's value being the previous message plus the string format of int `num` and the first element of the string array.
 
 •The argument just converts whatever is after the query into a string to be displayed back the next time it's updated. The expected value should be "4. Wild" when inputing `/add-message?s=Wild` after the URL.
 
 <img width="982" alt="Screenshot 2023-11-01 at 10 12 31 AM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/4fbc3e81-2312-4158-8d3f-12fcd258ddf8">
 
-•The method in my code being called is handleRequest.
+•The method in my code being called is `handleRequest`.
 
-•The argument for that method is a url. The method checks if the url path contains /add-message. If it doesn't, it will just return msg without a change. If it does, it will add the message after the query into a string array. Msg is then returned with it's value being the previous message plus the string format of int num and the first element of the string array.
+•The argument for that method is a url. The method checks if the url path contains `/add-message`. If it doesn't, it will just return `msg` without a change. If it does, it will add the message after the query into a string array. `Msg` is then returned with it's value being the previous message plus the string format of int `num` and the first element of the string array.
 
 •As stated previously and proved in the 2nd screenshot. Any value placed after the query is convereted to a string no matter what. After putting an integer, a double, and a URL, we are able to see that they got convereted into a string. 
 
 # Part 2
-For the private key:
+For the public key:
 
 <img width="1570" alt="Screenshot 2023-11-01 at 10 48 08 AM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/118cc009-da49-49b3-9665-49e98a114d94">
 
