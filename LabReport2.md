@@ -44,7 +44,7 @@ class StringServer {
 
 •The argument just converts whatever is after the query into a string to be displayed back the next time it's updated. The expected value should be "4. Wild" when inputing `/add-message?s=Wild` after the URL.
 
-![Screenshot 2023-10-21 at 2 25 12 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/90273b37-6bbb-4af6-ab19-5b0e33fe08a5)
+<img width="982" alt="Screenshot 2023-11-01 at 10 12 31 AM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/4fbc3e81-2312-4158-8d3f-12fcd258ddf8">
 
 •The method in my code being called is handleRequest.
 
