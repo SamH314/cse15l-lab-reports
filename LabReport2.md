@@ -38,7 +38,7 @@ class StringServer {
 ```
 ![Screenshot 2023-10-21 at 2 00 32 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/0c1f04d8-8e5e-4d6f-856e-3e5c37678cc2)
 
-•The method in my code being called is handleRequest.
+•The method in my code being called is `handleRequest`.
 
 •The argument for that method is a url. The method checks if the url path contains /add-message. If it doesn't, it will just return msg without a change. If it does, it will add the message after the query into a string array. Msg is then returned with it's value being the previous message plus the string format of int num and the first element of the string array.
 
