@@ -53,16 +53,21 @@ class StringServer {
 •As stated previously and proved in the 2nd screenshot. Any value placed after the query is convereted to a string no matter what. After putting an integer, a double, and a URL, we are able to see that they got convereted into a string. 
 
 # Part 2
-![Screenshot 2023-10-21 at 3 08 35 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/77da2604-67a5-4755-920f-af760dd7ebaf)
-
-For the public key:
-```
-/Users/Sammyhernandez/.ssh/id_rsa.pub
-```
 For the private key:
+![Screenshot 2023-10-21 at 3 08 35 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/77da2604-67a5-4755-920f-af760dd7ebaf)
+<img width="1570" alt="Screenshot 2023-11-01 at 10 48 08 AM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/118cc009-da49-49b3-9665-49e98a114d94">
+^Shows that both my local and remote contain the same public key! This ultimattely shows the path to the public key for my SSH key for logging into ieng6 on the remote computer.
 ```
-/Users/Sammyhernandez/.ssh/id_rsa
+/home/linux/ieng6/cs15lfa23/cs15lfa23ek/.ssh/authorized_keys
 ```
+
+For the private key:
+<img width="419" alt="Screenshot 2023-11-01 at 11 16 50 AM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/5585344c-65dc-4c7f-a60a-f4b4003f278c">
+^pwd shows my current path and the ls shows what's inside ssh showing my private key
+```
+/Users/sammyhernandez/.ssh/id_rsa
+```
+
 
 ![Screenshot 2023-10-21 at 3 04 42 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/7a31522a-f8bb-4ef5-a93f-7c6f638e4dcb)
 
