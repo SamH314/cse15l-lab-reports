@@ -3,6 +3,17 @@
 * A failure-inducing input for the buggy program, as a JUnit test and any associated code:
 
 ```
+public class ArrayExamples {
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1]; //This is causing the failure
+    }
+    return arr; //This is also causing the failure
+  }
+}
 public class ArrayTests {
   @Test
   public void testReversed() {
@@ -15,6 +26,17 @@ public class ArrayTests {
 * An input that doesn’t induce a failure, as a JUnit test and any associated code:
 
 ```
+public class ArrayExamples {
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1]; //This is causing the failure
+    }
+    return arr; //This is also causing the failure
+  }
+}
 public class ArrayTests {
   @Test
   public void testReversed() {
@@ -25,8 +47,11 @@ public class ArrayTests {
 
 * The symptom, as the output of running the tests:
 
+An output from a Failure-inducing input for the buggy program:
+
 <img width="958" alt="Screenshot 2023-11-01 at 12 34 54 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/b83d4bdd-a308-4edf-97ab-0e52a82686ba">
 
+An output from an input that doesn't induce a failure for the buggy program:
 
 <img width="321" alt="Screenshot 2023-11-01 at 12 33 08 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/29c5cd38-3a11-47b9-aa41-32c5d485d6f2">
 
@@ -61,3 +86,11 @@ public class ArrayExamples {
   }
 }
 ```
+We were not copying the elements from the input array to the new array in reverse order, instead we were putting what was in the new array into the input array and returning the input array. To fix this we made it so that input arr copies down it's elements to the new input. The next fix is making it return `newArray`.
+
+# Part 2 - Researching Commands
+
+The command I choose is `grep`.
+
+Hello Seagull how are you?
+
