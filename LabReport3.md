@@ -92,7 +92,6 @@ We were not copying the elements from the input array to the new array in revers
 
 The command I choose is `grep`.
 
-Hello Seagull how are you?
 
 #### grep -i <.txt>
 
@@ -231,6 +230,7 @@ grep -c basically counts the number of lines the pattern shows up inside the tex
 
 
 I used Chat Gpt for looking up grep command lines.
+
 Prompt:
 ```
 what are some grep commands
