@@ -94,7 +94,7 @@ The command I choose is `grep`.
 
 Hello Seagull how are you?
 
-1. grep -i <.txt>
+#### grep -i <.txt>
 
 *
 ```
@@ -144,7 +144,7 @@ sammyhernandez@Sammys-MacBook-Pro technical % grep -i "adults" */1468-6708-3-1.t
 
 grep -i basically looks for the pattern in the text file and prints the line that it shows up in the text file. This can be useful for trying too look for context of the pattern, when you're also interested on the other characters that are in the same line as the pattern.
 
-2. grep -l
+#### grep -l
 
 *
 ```
@@ -180,7 +180,7 @@ rr37.txt
 
 grep -l looks for the files that contains the pattern that you are looking for. For the first codeblock, it's showing me that "America" is in chapter 1 all the way through chpater 13. This is useful when you are looking for a word and don't want to check every file to see if it contains that word. Saves you a lot of time.  
 
-3. grep -r
+#### grep -r
 
 *
 ```
@@ -215,7 +215,7 @@ biomed/1468-6708-3-1.txt:        that address older adults who are merely overwe
 
 grep -r looks for a pattern in every text file from the directory and it's subdirectories. It is extremely useful when looking for a specific word and you're in a directory tree. 
 
-4. grep -c
+#### grep -c
 
 *
 ```
