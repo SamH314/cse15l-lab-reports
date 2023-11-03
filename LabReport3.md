@@ -145,8 +145,36 @@ sammyhernandez@Sammys-MacBook-Pro technical % grep -i "adults" */1468-6708-3-1.t
 2. grep -l
 
 *
+```
+sammyhernandez@Sammys-MacBook-Pro 911report % grep -l "America" *.txt
+chapter-1.txt
+chapter-10.txt
+chapter-11.txt
+chapter-12.txt
+chapter-13.1.txt
+chapter-13.2.txt
+chapter-13.3.txt
+chapter-13.4.txt
+chapter-13.5.txt
+chapter-2.txt
+chapter-3.txt
+chapter-5.txt
+chapter-6.txt
+chapter-7.txt
+chapter-8.txt
+chapter-9.txt
+preface.txt
+```
 
 *
+```
+sammyhernandez@Sammys-MacBook-Pro biomed % grep -l "Adults" *.txt 
+1471-213X-1-6.txt
+1471-2296-3-18.txt
+1472-6785-1-3.txt
+1472-6963-1-8.txt
+rr37.txt
+```
 
 3. grep -r
 
@@ -183,8 +211,15 @@ biomed/1468-6708-3-1.txt:        that address older adults who are merely overwe
 
 
 
-4. grep -
+4. grep -c
 
 *
-
+```
+sammyhernandez@Sammys-MacBook-Pro technical % grep -c "America" */chapter-1.txt
+85
+```
 *
+```
+sammyhernandez@Sammys-MacBook-Pro technical % grep -c "adults" */1468-6708-3-1.txt
+18
+```
