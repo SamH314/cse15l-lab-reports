@@ -142,6 +142,8 @@ sammyhernandez@Sammys-MacBook-Pro technical % grep -i "adults" */1468-6708-3-1.t
         that address older adults who are merely overweight.
 ```
 
+grep -i basically looks for the pattern in the text file and prints the line that it shows up in the text file. This can be useful for trying too look for context of the pattern, when you're also interested on the other characters that are in the same line as the pattern.
+
 2. grep -l
 
 *
@@ -176,6 +178,8 @@ sammyhernandez@Sammys-MacBook-Pro biomed % grep -l "Adults" *.txt
 rr37.txt
 ```
 
+grep -l looks for the files that contains the pattern that you are looking for. For the first codeblock, it's showing me that "America" is in chapter 1 all the way through chpater 13. This is useful when you are looking for a word and don't want to check every file to see if it contains that word. Saves you a lot of time.  
+
 3. grep -r
 
 *
@@ -209,7 +213,7 @@ biomed/1468-6708-3-1.txt:        obese or underweight older adults, and discoura
 biomed/1468-6708-3-1.txt:        that address older adults who are merely overweight.
 ```
 
-
+grep -r looks for a pattern in every text file from the directory and it's subdirectories. It is extremely useful when looking for a specific word and you're in a directory tree. 
 
 4. grep -c
 
@@ -222,4 +226,92 @@ sammyhernandez@Sammys-MacBook-Pro technical % grep -c "America" */chapter-1.txt
 ```
 sammyhernandez@Sammys-MacBook-Pro technical % grep -c "adults" */1468-6708-3-1.txt
 18
+```
+grep -c basically counts the number of lines the pattern shows up inside the text file. It can be useful for looking for a textfile that contains the most amount of that patterns refernces. 
+
+
+I used Chat Gpt for looking up grep command lines.
+Prompt:
+```
+what are some grep commands
+```
+Response:
+```
+grep is a powerful command-line utility for searching text using regular expressions. Here are some common grep commands and options:
+
+Basic Search:
+
+grep pattern file: Searches for "pattern" in "file" and displays lines that match.
+Recursive Search:
+
+grep -r pattern directory: Searches for "pattern" in all files within "directory" and its subdirectories.
+Case-Insensitive Search:
+
+grep -i pattern file: Performs a case-insensitive search for "pattern" in "file."
+Invert Match:
+
+grep -v pattern file: Displays lines that do not contain "pattern" in "file."
+Line Numbers:
+
+grep -n pattern file: Displays line numbers along with matching lines.
+Whole Word Search:
+
+grep -w pattern file: Searches for whole words that match "pattern."
+Regular Expression Search:
+
+grep -E 'regex' file: Searches using extended regular expressions defined by "regex."
+Count Matching Lines:
+
+grep -c pattern file: Counts the number of lines that match "pattern" in "file."
+Display File Names:
+
+grep -l pattern file1 file2 ...: Lists the names of files containing "pattern."
+Recursive Display File Names:
+
+grep -rl pattern directory: Lists the names of files containing "pattern" within "directory" and its subdirectories.
+Display File Names with Matching Lines:
+
+grep -rl pattern directory | xargs grep pattern: Lists file names and matching lines within "directory" and its subdirectories.
+Quiet Mode:
+
+grep -q pattern file: Silences the output and is often used to check if "pattern" is present in "file."
+Print Context:
+
+grep -A num pattern file: Prints "num" lines after each match.
+grep -B num pattern file: Prints "num" lines before each match.
+grep -C num pattern file: Prints "num" lines before and after each match.
+These are some of the common grep commands and options. You can combine these options as needed to perform more advanced and specific text searches in your files and directories. Use man grep to access the manual page and learn more about grep and its available options.
+```
+Prompt:
+```
+how does grep -c work
+```
+Response:
+```
+The grep -c command is used to count the number of lines in a text file that match a specified pattern. Here's how it works:
+
+You provide the grep command with a pattern you want to search for in a file.
+grep -c scans the file and counts how many lines contain the specified pattern.
+Instead of displaying the matching lines, it returns the count as its output.
+Here's the basic syntax:
+
+bash
+Copy code
+grep -c "pattern" file
+For example, if you have a file called example.txt with the following contents:
+
+bash
+Copy code
+This is a test.
+Testing 1, 2, 3.
+Test complete.
+Another test.
+And you run:
+
+bash
+Copy code
+grep -c "test" example.txt
+The output will be 3, because there are three lines in the file that contain the word "test."
+
+grep -c is useful when you want to quickly find out how many lines in a file match a particular pattern, without displaying the actual lines. This can be handy for various scripting and automation tasks where you need to process the count of matching lines.
 ```
