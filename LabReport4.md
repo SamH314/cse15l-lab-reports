@@ -26,9 +26,14 @@ I typed the command `vim ListExamples.java <enter>` in order to edit `ListExampl
 
 <img width="505" alt="Screenshot 2023-11-16 at 5 42 12 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/42667e5b-c1d9-4602-96c8-eddd8a7c7c8c">
 
-Being back in the terminal, I ran  `bash test.sh` in order to run the test and show that they succeed.
+Being back in the terminal, I ran `bash test.sh` in order to run the test and show that they succeed.
 
 # Step 9
+<img width="778" alt="Screenshot 2023-11-16 at 5 58 17 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/1ad70312-b216-48ea-85b7-5e871c911ef0">
 
-<img width="754" alt="Screenshot 2023-11-16 at 5 50 28 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/e388d96a-f5f4-47f9-98cf-d0cf8d8c36b9">
+I checked the status of the directory by running the command `git status <enter>` which showed me what files were modified, in this case it was `ListExamples.java`. I ran the command `git add <enter>` which prepared the file to be commited by git. Once more I typed `git status <enter>` to verify that my changes are staged to be committed. I finaly typed `git commit <enter>` to commit and push the changes into my github account. 
+
+<img width="771" alt="Screenshot 2023-11-16 at 5 55 12 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/1631ee43-20da-40de-9de7-3a91c6d58208">
+
+I went into insert mode `i <enter>` and added the commit comment `This change was made for my LabReport7. :) <escape>` I clicked the escape button to exit insert mode. I saved and quit by typing `<shift>;wq <enter>`.
 
