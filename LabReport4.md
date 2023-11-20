@@ -37,3 +37,10 @@ I checked the status of the directory by running the command `git status <enter>
 
 I went into insert mode `i <enter>` and added the commit comment `This change was made for my LabReport7. :) <escape>` I clicked the escape button to exit insert mode. I saved and quit by typing `<shift>;wq <enter>`.
 
+![Screenshot 2023-11-19 at 5 52 49 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/e79b2616-2802-46bb-add3-d6fc2664b044)
+
+I then typed git push `git push -u origin main <enter>` to push the changes onto my github.
+
+
+The picture show's the changes are reflected onto my github.
+![Screenshot 2023-11-19 at 5 54 15 PM](https://github.com/SamH314/cse15l-lab-reports/assets/146782614/05eb2af8-aa85-4f8d-93fc-e7cd0d321e10)
