@@ -21,7 +21,11 @@ I typed the command `cd lab7 <enter>` to change my current directory to lab7. Th
 
 <img width="397" alt="Screenshot 2023-11-16 at 1 51 06 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/3800e9b6-930d-4523-a8f1-df8b02ecd530">
 
-I typed the command `vim ListExamples.java <enter>` in order to edit `ListExamples.java` file. I then typed `<shift> ; 44` to go to line 44 where the error seems to be. I clicked `l` 6 times in order to get to the index number I need to change, to make index1 become index2. I clicked `i` to get into insert mode and hit `<delete> 2 <escape>` to make the change and escape out of insert mode. To save the change and quit out of vim I typed the command  `:wq <enter>`
+I typed the command `vim ListExamples.java <enter>` in order to edit `ListExamples.java` file. I then typed `<shift> ; 44` to go to line 44 where the error seems to be. I clicked `l` 6 times in order to get to the index number I need to change, to make index1 become index2. I clicked `i` to get into insert mode and hit `<delete> 2 <escape>` to make the change and escape out of insert mode. 
+
+<img width="846" alt="Screenshot 2023-12-01 at 12 14 00 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/6ef80edb-7be6-45dd-a435-23434ca01290">
+
+To save the change and quit out of vim I typed the command  `:wq <enter>`
 # Step 8
 
 <img width="505" alt="Screenshot 2023-11-16 at 5 42 12 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/42667e5b-c1d9-4602-96c8-eddd8a7c7c8c">
@@ -31,7 +35,7 @@ Being back in the terminal, I ran `bash test.sh` in order to run the test and sh
 # Step 9
 <img width="778" alt="Screenshot 2023-11-16 at 5 58 17 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/1ad70312-b216-48ea-85b7-5e871c911ef0">
 
-I checked the status of the directory by running the command `git status <enter>` which showed me what files were modified, in this case it was `ListExamples.java`. I ran the command `git add <enter>` which prepared the file to be commited by git. Once more I typed `git status <enter>` to verify that my changes are staged to be committed. I finaly typed `git commit <enter>` to commit and push the changes into my github account. 
+I checked the status of the directory by running the command `git status <enter>` which showed me what files were modified, in this case it was `ListExamples.java`. I ran the command `git add ListExamples.java <enter>` which prepared the file to be commited by git. Once more I typed `git status <enter>` to verify that my changes are staged to be committed. I finaly typed `git commit <enter>` to commit and push the changes into my github account. 
 
 <img width="771" alt="Screenshot 2023-11-16 at 5 55 12 PM" src="https://github.com/SamH314/cse15l-lab-reports/assets/146782614/1631ee43-20da-40de-9de7-3a91c6d58208">
 
