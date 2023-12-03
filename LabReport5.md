@@ -68,6 +68,7 @@ fi
 ### A description of What to Edit to Fix the Bug:
 `javac -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java`
 `java -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`
+
 adding `..` before every `/lib` pattern in the `java` and `javac` commands
 
 # Part 2 - Reflection
